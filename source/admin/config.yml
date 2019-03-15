@@ -21,7 +21,7 @@ collections:
       - {label: Image, name: image, widget: image, required: true}
 
       - {label: Screen URL, name: screen_url, widget: string}
-      - {label: Data URL, name: speadsheet_url, widget: string}
+      - {label: Data URL, name: spreadsheet_url, widget: string}
       - {label: Body, name: body, widget: markdown}
 
 #markdown middleman blog example
