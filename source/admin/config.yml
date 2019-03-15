@@ -8,8 +8,8 @@ public_folder: /images/uploads
 
 collections:
   #yaml middleman data example
-  - name: product
-    label: Product
+  - name: screens
+    label: Screens
     format: yml
     extension: yml
     folder: data/products/
@@ -20,8 +20,8 @@ collections:
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: true}
 
-      - {label: Weight, name: weight, widget: number}
-      - {label: Price, name: price, widget: number}
+      - {label: Screen URL, name: screen_url, widget: string}
+      - {label: Data URL, name: speadsheet_url, widget: string}
       - {label: Body, name: body, widget: markdown}
 
 #markdown middleman blog example
