@@ -4,13 +4,15 @@
     .meta
       h1 = product.title
 
-      .weight
-        - weight = data.settings.units.weight || 'kg'
-        span = product.weight.to_s + weight
+      .screen-url
+        span = 'URL: '
+        a href=product.screen_url target="_blank" #{product.screen_url}
 
-      .price
-        - currency = data.settings.units.currency || '€' 
-        span = currency + product.price.to_s 
+      br
+      
+      .spreadsheet-url
+        span = 'Spreadsheet URL: '
+        a href=product.spreadsheet_url target="_blank" #{product.spreadsheet_url}
 
     .body
       = markdown product.body

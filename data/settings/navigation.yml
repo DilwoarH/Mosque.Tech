@@ -2,6 +2,6 @@ nav_items:
   - label: Home
     path: /
   - label: Screens
-    path: /screens/
+    path: /products/
   - label: News
     path: /news
